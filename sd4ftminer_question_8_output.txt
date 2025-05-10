@@ -1,0 +1,19 @@
+=== SD4ft-Miner – Vliv rozdílu teploty a pocitové teploty na závažnost nehody ===
+
+
+CleverMiner task processing summary:
+
+Task type : SD4ftMiner
+Number of verifications : 180
+Number of rules : 0
+Total time needed : 00h 00m 25s
+Time of data preparation : 00h 00m 25s
+Time of rule mining : 00h 00m 00s
+
+
+=== Pravidla ===
+
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+

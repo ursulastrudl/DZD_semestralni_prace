@@ -1,0 +1,52 @@
+=== CF-Miner – Otázka 5: Jsou nehody vážnější v noci než ve dne? ===
+
+=== Shrnutí ===
+
+CleverMiner task processing summary:
+
+Task type : CFMiner
+Number of verifications : 2
+Number of rules : 2
+Total time needed : 00h 00m 00s
+Time of data preparation : 00h 00m 00s
+Time of rule mining : 00h 00m 00s
+
+
+=== Seznam pravidel ===
+
+List of rules:
+RULEID BASE  S_UP  S_DOWN Condition
+     1 57878     1     0 time_of_day(Day)
+     2 26253     1     0 time_of_day(Night)
+
+
+=== Všechna pravidla ===
+
+
+=== Pravidlo 1 ===
+
+
+
+Rule id : 1
+
+Base : 57878  Relative base : 0.688  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 56567  Histogram minimum :  1311  Histogram relative maximum : 0.977 Histogram relative minimum : 0.023 
+
+Condition  : time_of_day(Day)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1311, 56567]
+
+
+=== Pravidlo 2 ===
+
+
+
+Rule id : 2
+
+Base : 26253  Relative base : 0.312  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 25425  Histogram minimum :   828  Histogram relative maximum : 0.968 Histogram relative minimum : 0.032 
+
+Condition  : time_of_day(Night)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [828, 25425]
+

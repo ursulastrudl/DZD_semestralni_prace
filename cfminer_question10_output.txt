@@ -1,0 +1,1385 @@
+=== Shrnutí ===
+
+CleverMiner task processing summary:
+
+Task type : CFMiner
+Number of verifications : 91
+Number of rules : 91
+Total time needed : 00h 00m 00s
+Time of data preparation : 00h 00m 00s
+Time of rule mining : 00h 00m 00s
+
+
+=== Seznam pravidel ===
+
+List of rules:
+RULEID BASE  S_UP  S_DOWN Condition
+     1 83376     1     0 Amenity(No)
+     2 83326     1     0 Amenity(No) & Bump(No)
+     3 77740     1     0 Amenity(No) & Crossing(No)
+     4 83129     1     0 Amenity(No) & Give_Way(No)
+     5 77194     1     0 Amenity(No) & Junction(No)
+     6 83224     1     0 Amenity(No) & No_Exit(No)
+     7 82826     1     0 Amenity(No) & Railway(No)
+     8 83370     1     0 Amenity(No) & Roundabout(No)
+     9 82094     1     0 Amenity(No) & Station(No)
+    10 81380     1     0 Amenity(No) & Stop(No)
+    11 83303     1     0 Amenity(No) & Traffic_Calming(No)
+    12 76625     1     0 Amenity(No) & Traffic_Signal(No)
+    13 83376     1     0 Amenity(No) & Turning_Loop(No)
+    14 84079     1     0 Bump(No)
+    15 78076     1     0 Bump(No) & Crossing(No)
+    16 83819     1     0 Bump(No) & Give_Way(No)
+    17 77881     1     0 Bump(No) & Junction(No)
+    18 83924     1     0 Bump(No) & No_Exit(No)
+    19 83503     1     0 Bump(No) & Railway(No)
+    20 84073     1     0 Bump(No) & Roundabout(No)
+    21 82620     1     0 Bump(No) & Station(No)
+    22 82045     1     0 Bump(No) & Stop(No)
+    23 84055     1     0 Bump(No) & Traffic_Calming(No)
+    24 77033     1     0 Bump(No) & Traffic_Signal(No)
+    25 84079     1     0 Bump(No) & Turning_Loop(No)
+    26 78121     1     0 Crossing(No)
+    27 77963     1     0 Crossing(No) & Give_Way(No)
+    28 72021     1     0 Crossing(No) & Junction(No)
+    29 78023     1     0 Crossing(No) & No_Exit(No)
+    30 77944     1     0 Crossing(No) & Railway(No)
+    31 78117     1     0 Crossing(No) & Roundabout(No)
+    32 77269     1     0 Crossing(No) & Station(No)
+    33 76646     1     0 Crossing(No) & Stop(No)
+    34 78072     1     0 Crossing(No) & Traffic_Calming(No)
+    35 74432     1     0 Crossing(No) & Traffic_Signal(No)
+    36 78121     1     0 Crossing(No) & Turning_Loop(No)
+    37 83871     1     0 Give_Way(No)
+    38 77679     1     0 Give_Way(No) & Junction(No)
+    39 83717     1     0 Give_Way(No) & No_Exit(No)
+    40 83295     1     0 Give_Way(No) & Railway(No)
+    41 83866     1     0 Give_Way(No) & Roundabout(No)
+    42 82421     1     0 Give_Way(No) & Station(No)
+    43 81858     1     0 Give_Way(No) & Stop(No)
+    44 83795     1     0 Give_Way(No) & Traffic_Calming(No)
+    45 76953     1     0 Give_Way(No) & Traffic_Signal(No)
+    46 83871     1     0 Give_Way(No) & Turning_Loop(No)
+    47 77932     1     0 Junction(No)
+    48 77786     1     0 Junction(No) & No_Exit(No)
+    49 77392     1     0 Junction(No) & Railway(No)
+    50 77931     1     0 Junction(No) & Roundabout(No)
+    51 76496     1     0 Junction(No) & Station(No)
+    52 75921     1     0 Junction(No) & Stop(No)
+    53 77858     1     0 Junction(No) & Traffic_Calming(No)
+    54 70979     1     0 Junction(No) & Traffic_Signal(No)
+    55 77932     1     0 Junction(No) & Turning_Loop(No)
+    56 83976     1     0 No_Exit(No)
+    57 83401     1     0 No_Exit(No) & Railway(No)
+    58 83970     1     0 No_Exit(No) & Roundabout(No)
+    59 82527     1     0 No_Exit(No) & Station(No)
+    60 81942     1     0 No_Exit(No) & Stop(No)
+    61 83900     1     0 No_Exit(No) & Traffic_Calming(No)
+    62 76970     1     0 No_Exit(No) & Traffic_Signal(No)
+    63 83976     1     0 No_Exit(No) & Turning_Loop(No)
+    64 83554     1     0 Railway(No)
+    65 83548     1     0 Railway(No) & Roundabout(No)
+    66 82192     1     0 Railway(No) & Station(No)
+    67 81538     1     0 Railway(No) & Stop(No)
+    68 83482     1     0 Railway(No) & Traffic_Calming(No)
+    69 76618     1     0 Railway(No) & Traffic_Signal(No)
+    70 83554     1     0 Railway(No) & Turning_Loop(No)
+    71 84125     1     0 Roundabout(No)
+    72 82666     1     0 Roundabout(No) & Station(No)
+    73 82079     1     0 Roundabout(No) & Stop(No)
+    74 84049     1     0 Roundabout(No) & Traffic_Calming(No)
+    75 77078     1     0 Roundabout(No) & Traffic_Signal(No)
+    76 84125     1     0 Roundabout(No) & Turning_Loop(No)
+    77 82672     1     0 Station(No)
+    78 80736     1     0 Station(No) & Stop(No)
+    79 82600     1     0 Station(No) & Traffic_Calming(No)
+    80 76195     1     0 Station(No) & Traffic_Signal(No)
+    81 82672     1     0 Station(No) & Turning_Loop(No)
+    82 82085     1     0 Stop(No)
+    83 82026     1     0 Stop(No) & Traffic_Calming(No)
+    84 75097     1     0 Stop(No) & Traffic_Signal(No)
+    85 82085     1     0 Stop(No) & Turning_Loop(No)
+    86 84055     1     0 Traffic_Calming(No)
+    87 77025     1     0 Traffic_Calming(No) & Traffic_Signal(No)
+    88 84055     1     0 Traffic_Calming(No) & Turning_Loop(No)
+    89 77084     1     0 Traffic_Signal(No)
+    90 77084     1     0 Traffic_Signal(No) & Turning_Loop(No)
+    91 84131     1     0 Turning_Loop(No)
+
+
+=== Detailní výpis všech pravidel ===
+
+
+--- Pravidlo č. 1 ---
+
+
+
+Rule id : 1
+
+Base : 83376  Relative base : 0.991  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81249  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 81249]
+
+
+--- Pravidlo č. 2 ---
+
+
+
+Rule id : 2
+
+Base : 83326  Relative base : 0.990  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81199  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & Bump(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 81199]
+
+
+--- Pravidlo č. 3 ---
+
+
+
+Rule id : 3
+
+Base : 77740  Relative base : 0.924  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75739  Histogram minimum :  2001  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & Crossing(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2001, 75739]
+
+
+--- Pravidlo č. 4 ---
+
+
+
+Rule id : 4
+
+Base : 83129  Relative base : 0.988  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81017  Histogram minimum :  2112  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Amenity(No) & Give_Way(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2112, 81017]
+
+
+--- Pravidlo č. 5 ---
+
+
+
+Rule id : 5
+
+Base : 77194  Relative base : 0.918  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75226  Histogram minimum :  1968  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Amenity(No) & Junction(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1968, 75226]
+
+
+--- Pravidlo č. 6 ---
+
+
+
+Rule id : 6
+
+Base : 83224  Relative base : 0.989  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81099  Histogram minimum :  2125  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & No_Exit(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2125, 81099]
+
+
+--- Pravidlo č. 7 ---
+
+
+
+Rule id : 7
+
+Base : 82826  Relative base : 0.984  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80722  Histogram minimum :  2104  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Amenity(No) & Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2104, 80722]
+
+
+--- Pravidlo č. 8 ---
+
+
+
+Rule id : 8
+
+Base : 83370  Relative base : 0.991  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81243  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 81243]
+
+
+--- Pravidlo č. 9 ---
+
+
+
+Rule id : 9
+
+Base : 82094  Relative base : 0.976  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79975  Histogram minimum :  2119  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2119, 79975]
+
+
+--- Pravidlo č. 10 ---
+
+
+
+Rule id : 10
+
+Base : 81380  Relative base : 0.967  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79326  Histogram minimum :  2054  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Amenity(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2054, 79326]
+
+
+--- Pravidlo č. 11 ---
+
+
+
+Rule id : 11
+
+Base : 83303  Relative base : 0.990  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81176  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 81176]
+
+
+--- Pravidlo č. 12 ---
+
+
+
+Rule id : 12
+
+Base : 76625  Relative base : 0.911  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 74684  Histogram minimum :  1941  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Amenity(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1941, 74684]
+
+
+--- Pravidlo č. 13 ---
+
+
+
+Rule id : 13
+
+Base : 83376  Relative base : 0.991  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81249  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Amenity(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 81249]
+
+
+--- Pravidlo č. 14 ---
+
+
+
+Rule id : 14
+
+Base : 84079  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81940  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81940]
+
+
+--- Pravidlo č. 15 ---
+
+
+
+Rule id : 15
+
+Base : 78076  Relative base : 0.928  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 76071  Histogram minimum :  2005  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Bump(No) & Crossing(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2005, 76071]
+
+
+--- Pravidlo č. 16 ---
+
+
+
+Rule id : 16
+
+Base : 83819  Relative base : 0.996  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81695  Histogram minimum :  2124  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Give_Way(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2124, 81695]
+
+
+--- Pravidlo č. 17 ---
+
+
+
+Rule id : 17
+
+Base : 77881  Relative base : 0.926  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75901  Histogram minimum :  1980  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Junction(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1980, 75901]
+
+
+--- Pravidlo č. 18 ---
+
+
+
+Rule id : 18
+
+Base : 83924  Relative base : 0.998  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81787  Histogram minimum :  2137  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & No_Exit(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2137, 81787]
+
+
+--- Pravidlo č. 19 ---
+
+
+
+Rule id : 19
+
+Base : 83503  Relative base : 0.993  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81388  Histogram minimum :  2115  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2115, 81388]
+
+
+--- Pravidlo č. 20 ---
+
+
+
+Rule id : 20
+
+Base : 84073  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81934  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81934]
+
+
+--- Pravidlo č. 21 ---
+
+
+
+Rule id : 21
+
+Base : 82620  Relative base : 0.982  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80493  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Bump(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 80493]
+
+
+--- Pravidlo č. 22 ---
+
+
+
+Rule id : 22
+
+Base : 82045  Relative base : 0.975  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79979  Histogram minimum :  2066  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2066, 79979]
+
+
+--- Pravidlo č. 23 ---
+
+
+
+Rule id : 23
+
+Base : 84055  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81916  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81916]
+
+
+--- Pravidlo č. 24 ---
+
+
+
+Rule id : 24
+
+Base : 77033  Relative base : 0.916  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75086  Histogram minimum :  1947  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1947, 75086]
+
+
+--- Pravidlo č. 25 ---
+
+
+
+Rule id : 25
+
+Base : 84079  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81940  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Bump(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81940]
+
+
+--- Pravidlo č. 26 ---
+
+
+
+Rule id : 26
+
+Base : 78121  Relative base : 0.929  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 76116  Histogram minimum :  2005  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2005, 76116]
+
+
+--- Pravidlo č. 27 ---
+
+
+
+Rule id : 27
+
+Base : 77963  Relative base : 0.927  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75965  Histogram minimum :  1998  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Give_Way(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1998, 75965]
+
+
+--- Pravidlo č. 28 ---
+
+
+
+Rule id : 28
+
+Base : 72021  Relative base : 0.856  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 70175  Histogram minimum :  1846  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Junction(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1846, 70175]
+
+
+--- Pravidlo č. 29 ---
+
+
+
+Rule id : 29
+
+Base : 78023  Relative base : 0.927  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 76020  Histogram minimum :  2003  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & No_Exit(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2003, 76020]
+
+
+--- Pravidlo č. 30 ---
+
+
+
+Rule id : 30
+
+Base : 77944  Relative base : 0.926  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75941  Histogram minimum :  2003  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2003, 75941]
+
+
+--- Pravidlo č. 31 ---
+
+
+
+Rule id : 31
+
+Base : 78117  Relative base : 0.929  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 76112  Histogram minimum :  2005  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2005, 76112]
+
+
+--- Pravidlo č. 32 ---
+
+
+
+Rule id : 32
+
+Base : 77269  Relative base : 0.918  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75268  Histogram minimum :  2001  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2001, 75268]
+
+
+--- Pravidlo č. 33 ---
+
+
+
+Rule id : 33
+
+Base : 76646  Relative base : 0.911  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 74710  Histogram minimum :  1936  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Crossing(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1936, 74710]
+
+
+--- Pravidlo č. 34 ---
+
+
+
+Rule id : 34
+
+Base : 78072  Relative base : 0.928  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 76067  Histogram minimum :  2005  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2005, 76067]
+
+
+--- Pravidlo č. 35 ---
+
+
+
+Rule id : 35
+
+Base : 74432  Relative base : 0.885  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 72533  Histogram minimum :  1899  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1899, 72533]
+
+
+--- Pravidlo č. 36 ---
+
+
+
+Rule id : 36
+
+Base : 78121  Relative base : 0.929  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 76116  Histogram minimum :  2005  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Crossing(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2005, 76116]
+
+
+--- Pravidlo č. 37 ---
+
+
+
+Rule id : 37
+
+Base : 83871  Relative base : 0.997  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81747  Histogram minimum :  2124  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2124, 81747]
+
+
+--- Pravidlo č. 38 ---
+
+
+
+Rule id : 38
+
+Base : 77679  Relative base : 0.923  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75713  Histogram minimum :  1966  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Junction(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1966, 75713]
+
+
+--- Pravidlo č. 39 ---
+
+
+
+Rule id : 39
+
+Base : 83717  Relative base : 0.995  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81595  Histogram minimum :  2122  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & No_Exit(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2122, 81595]
+
+
+--- Pravidlo č. 40 ---
+
+
+
+Rule id : 40
+
+Base : 83295  Relative base : 0.990  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81195  Histogram minimum :  2100  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2100, 81195]
+
+
+--- Pravidlo č. 41 ---
+
+
+
+Rule id : 41
+
+Base : 83866  Relative base : 0.997  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81742  Histogram minimum :  2124  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2124, 81742]
+
+
+--- Pravidlo č. 42 ---
+
+
+
+Rule id : 42
+
+Base : 82421  Relative base : 0.980  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80309  Histogram minimum :  2112  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Give_Way(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2112, 80309]
+
+
+--- Pravidlo č. 43 ---
+
+
+
+Rule id : 43
+
+Base : 81858  Relative base : 0.973  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79804  Histogram minimum :  2054  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2054, 79804]
+
+
+--- Pravidlo č. 44 ---
+
+
+
+Rule id : 44
+
+Base : 83795  Relative base : 0.996  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81671  Histogram minimum :  2124  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2124, 81671]
+
+
+--- Pravidlo č. 45 ---
+
+
+
+Rule id : 45
+
+Base : 76953  Relative base : 0.915  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75014  Histogram minimum :  1939  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1939, 75014]
+
+
+--- Pravidlo č. 46 ---
+
+
+
+Rule id : 46
+
+Base : 83871  Relative base : 0.997  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81747  Histogram minimum :  2124  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Give_Way(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2124, 81747]
+
+
+--- Pravidlo č. 47 ---
+
+
+
+Rule id : 47
+
+Base : 77932  Relative base : 0.926  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75952  Histogram minimum :  1980  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1980, 75952]
+
+
+--- Pravidlo č. 48 ---
+
+
+
+Rule id : 48
+
+Base : 77786  Relative base : 0.925  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75808  Histogram minimum :  1978  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & No_Exit(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1978, 75808]
+
+
+--- Pravidlo č. 49 ---
+
+
+
+Rule id : 49
+
+Base : 77392  Relative base : 0.920  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75436  Histogram minimum :  1956  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1956, 75436]
+
+
+--- Pravidlo č. 50 ---
+
+
+
+Rule id : 50
+
+Base : 77931  Relative base : 0.926  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75951  Histogram minimum :  1980  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1980, 75951]
+
+
+--- Pravidlo č. 51 ---
+
+
+
+Rule id : 51
+
+Base : 76496  Relative base : 0.909  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 74528  Histogram minimum :  1968  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Junction(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1968, 74528]
+
+
+--- Pravidlo č. 52 ---
+
+
+
+Rule id : 52
+
+Base : 75921  Relative base : 0.902  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 74013  Histogram minimum :  1908  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1908, 74013]
+
+
+--- Pravidlo č. 53 ---
+
+
+
+Rule id : 53
+
+Base : 77858  Relative base : 0.925  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75878  Histogram minimum :  1980  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1980, 75878]
+
+
+--- Pravidlo č. 54 ---
+
+
+
+Rule id : 54
+
+Base : 70979  Relative base : 0.844  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 69190  Histogram minimum :  1789  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1789, 69190]
+
+
+--- Pravidlo č. 55 ---
+
+
+
+Rule id : 55
+
+Base : 77932  Relative base : 0.926  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75952  Histogram minimum :  1980  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Junction(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1980, 75952]
+
+
+--- Pravidlo č. 56 ---
+
+
+
+Rule id : 56
+
+Base : 83976  Relative base : 0.998  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81839  Histogram minimum :  2137  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2137, 81839]
+
+
+--- Pravidlo č. 57 ---
+
+
+
+Rule id : 57
+
+Base : 83401  Relative base : 0.991  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81288  Histogram minimum :  2113  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No) & Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2113, 81288]
+
+
+--- Pravidlo č. 58 ---
+
+
+
+Rule id : 58
+
+Base : 83970  Relative base : 0.998  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81833  Histogram minimum :  2137  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2137, 81833]
+
+
+--- Pravidlo č. 59 ---
+
+
+
+Rule id : 59
+
+Base : 82527  Relative base : 0.981  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80402  Histogram minimum :  2125  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : No_Exit(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2125, 80402]
+
+
+--- Pravidlo č. 60 ---
+
+
+
+Rule id : 60
+
+Base : 81942  Relative base : 0.974  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79878  Histogram minimum :  2064  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2064, 79878]
+
+
+--- Pravidlo č. 61 ---
+
+
+
+Rule id : 61
+
+Base : 83900  Relative base : 0.997  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81763  Histogram minimum :  2137  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2137, 81763]
+
+
+--- Pravidlo č. 62 ---
+
+
+
+Rule id : 62
+
+Base : 76970  Relative base : 0.915  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75025  Histogram minimum :  1945  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1945, 75025]
+
+
+--- Pravidlo č. 63 ---
+
+
+
+Rule id : 63
+
+Base : 83976  Relative base : 0.998  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81839  Histogram minimum :  2137  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : No_Exit(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2137, 81839]
+
+
+--- Pravidlo č. 64 ---
+
+
+
+Rule id : 64
+
+Base : 83554  Relative base : 0.993  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81439  Histogram minimum :  2115  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Railway(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2115, 81439]
+
+
+--- Pravidlo č. 65 ---
+
+
+
+Rule id : 65
+
+Base : 83548  Relative base : 0.993  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81433  Histogram minimum :  2115  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Railway(No) & Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2115, 81433]
+
+
+--- Pravidlo č. 66 ---
+
+
+
+Rule id : 66
+
+Base : 82192  Relative base : 0.977  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80088  Histogram minimum :  2104  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Railway(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2104, 80088]
+
+
+--- Pravidlo č. 67 ---
+
+
+
+Rule id : 67
+
+Base : 81538  Relative base : 0.969  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79496  Histogram minimum :  2042  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Railway(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2042, 79496]
+
+
+--- Pravidlo č. 68 ---
+
+
+
+Rule id : 68
+
+Base : 83482  Relative base : 0.992  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81367  Histogram minimum :  2115  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Railway(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2115, 81367]
+
+
+--- Pravidlo č. 69 ---
+
+
+
+Rule id : 69
+
+Base : 76618  Relative base : 0.911  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 74691  Histogram minimum :  1927  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Railway(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1927, 74691]
+
+
+--- Pravidlo č. 70 ---
+
+
+
+Rule id : 70
+
+Base : 83554  Relative base : 0.993  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81439  Histogram minimum :  2115  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Railway(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2115, 81439]
+
+
+--- Pravidlo č. 71 ---
+
+
+
+Rule id : 71
+
+Base : 84125  Relative base : 1.000  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81986  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Roundabout(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81986]
+
+
+--- Pravidlo č. 72 ---
+
+
+
+Rule id : 72
+
+Base : 82666  Relative base : 0.983  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80539  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Roundabout(No) & Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 80539]
+
+
+--- Pravidlo č. 73 ---
+
+
+
+Rule id : 73
+
+Base : 82079  Relative base : 0.976  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80013  Histogram minimum :  2066  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Roundabout(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2066, 80013]
+
+
+--- Pravidlo č. 74 ---
+
+
+
+Rule id : 74
+
+Base : 84049  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81910  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Roundabout(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81910]
+
+
+--- Pravidlo č. 75 ---
+
+
+
+Rule id : 75
+
+Base : 77078  Relative base : 0.916  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75131  Histogram minimum :  1947  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Roundabout(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1947, 75131]
+
+
+--- Pravidlo č. 76 ---
+
+
+
+Rule id : 76
+
+Base : 84125  Relative base : 1.000  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81986  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Roundabout(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81986]
+
+
+--- Pravidlo č. 77 ---
+
+
+
+Rule id : 77
+
+Base : 82672  Relative base : 0.983  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80545  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Station(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 80545]
+
+
+--- Pravidlo č. 78 ---
+
+
+
+Rule id : 78
+
+Base : 80736  Relative base : 0.960  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 78681  Histogram minimum :  2055  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Station(No) & Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2055, 78681]
+
+
+--- Pravidlo č. 79 ---
+
+
+
+Rule id : 79
+
+Base : 82600  Relative base : 0.982  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80473  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Station(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 80473]
+
+
+--- Pravidlo č. 80 ---
+
+
+
+Rule id : 80
+
+Base : 76195  Relative base : 0.906  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 74254  Histogram minimum :  1941  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Station(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1941, 74254]
+
+
+--- Pravidlo č. 81 ---
+
+
+
+Rule id : 81
+
+Base : 82672  Relative base : 0.983  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80545  Histogram minimum :  2127  Histogram relative maximum : 0.974 Histogram relative minimum : 0.026 
+
+Condition  : Station(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2127, 80545]
+
+
+--- Pravidlo č. 82 ---
+
+
+
+Rule id : 82
+
+Base : 82085  Relative base : 0.976  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80019  Histogram minimum :  2066  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Stop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2066, 80019]
+
+
+--- Pravidlo č. 83 ---
+
+
+
+Rule id : 83
+
+Base : 82026  Relative base : 0.975  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 79960  Histogram minimum :  2066  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Stop(No) & Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2066, 79960]
+
+
+--- Pravidlo č. 84 ---
+
+
+
+Rule id : 84
+
+Base : 75097  Relative base : 0.893  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 73223  Histogram minimum :  1874  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Stop(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1874, 73223]
+
+
+--- Pravidlo č. 85 ---
+
+
+
+Rule id : 85
+
+Base : 82085  Relative base : 0.976  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 80019  Histogram minimum :  2066  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Stop(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2066, 80019]
+
+
+--- Pravidlo č. 86 ---
+
+
+
+Rule id : 86
+
+Base : 84055  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81916  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Traffic_Calming(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81916]
+
+
+--- Pravidlo č. 87 ---
+
+
+
+Rule id : 87
+
+Base : 77025  Relative base : 0.916  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75078  Histogram minimum :  1947  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Traffic_Calming(No) & Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1947, 75078]
+
+
+--- Pravidlo č. 88 ---
+
+
+
+Rule id : 88
+
+Base : 84055  Relative base : 0.999  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81916  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Traffic_Calming(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81916]
+
+
+--- Pravidlo č. 89 ---
+
+
+
+Rule id : 89
+
+Base : 77084  Relative base : 0.916  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75137  Histogram minimum :  1947  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Traffic_Signal(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1947, 75137]
+
+
+--- Pravidlo č. 90 ---
+
+
+
+Rule id : 90
+
+Base : 77084  Relative base : 0.916  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 75137  Histogram minimum :  1947  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Traffic_Signal(No) & Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [1947, 75137]
+
+
+--- Pravidlo č. 91 ---
+
+
+
+Rule id : 91
+
+Base : 84131  Relative base : 1.000  Steps UP (consecutive) :     1  Steps DOWN (consecutive) :     0  Steps UP (any) :     1  Steps DOWN (any) :     0  Histogram maximum : 81992  Histogram minimum :  2139  Histogram relative maximum : 0.975 Histogram relative minimum : 0.025 
+
+Condition  : Turning_Loop(No)
+
+Categories in target variable  ['High', 'Low']
+Histogram                      [2139, 81992]
+

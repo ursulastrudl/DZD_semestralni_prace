@@ -1,0 +1,13 @@
+=== Confusion Matrix ===
+[[24592     9]
+ [  637     2]]
+
+=== Classification Report ===
+              precision    recall  f1-score   support
+
+       Nízká       0.97      1.00      0.99     24601
+      Vysoká       0.18      0.00      0.01       639
+
+    accuracy                           0.97     25240
+   macro avg       0.58      0.50      0.50     25240
+weighted avg       0.95      0.97      0.96     25240

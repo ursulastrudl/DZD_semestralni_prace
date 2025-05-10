@@ -1,0 +1,45 @@
+=== SD4ft-Miner: Weather/State with Temp affecting Severity ===
+
+
+CleverMiner task processing summary:
+
+Task type : SD4ftMiner
+Number of verifications : 36
+Number of rules : 1
+Total time needed : 00h 00m 26s
+Time of data preparation : 00h 00m 26s
+Time of rule mining : 00h 00m 00s
+
+
+=== Rules ===
+
+
+List of rules:
+RULEID BASE1 BASE2 RatioConf DeltaConf Rule
+     1  1014   695    1.682    +0.014  Weather_numeric(1 2) => severity_level(High) | --- : Temperature_cat(1 2 3) x Temperature_cat(6 5 4)
+
+
+=== Rule 1 ===
+
+
+
+Rule id : 1
+
+Base1 :  1014 Base2 :   695  Relative base 1 : 0.012 Relative base 2 : 0.008 CONF1 : 0.033  CONF2 : +0.020  Delta Conf : +0.014 Ratio Conf : +1.682
+
+Cedents:
+  antecedent : Weather_numeric(1 2)
+  succcedent : severity_level(High)
+  condition  : ---
+  first set  : Temperature_cat(1 2 3)
+  second set : Temperature_cat(6 5 4)
+
+Fourfold tables:
+FRST|  S  |  ¬S |  SCND|  S  |  ¬S |
+----|-----|-----|  ----|-----|-----| 
+ A  | 1014|29442|   A  |  695|34419|
+----|-----|-----|  ----|-----|-----|
+¬A  |  289|11781|  ¬A  |  140| 6222|
+----|-----|-----|  ----|-----|-----|
+
+

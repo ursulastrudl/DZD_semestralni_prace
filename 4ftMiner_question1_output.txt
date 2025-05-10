@@ -1,0 +1,226 @@
+=== Shrnutí ===
+
+CleverMiner task processing summary:
+
+Task type : 4ftMiner
+Number of verifications : 9
+Number of rules : 9
+Total time needed : 00h 00m 00s
+Time of data preparation : 00h 00m 00s
+Time of rule mining : 00h 00m 00s
+
+
+=== Seznam pravidel ===
+
+List of rules:
+RULEID BASE  CONF  AAD    Rule
+     1   834 0.024 -0.043 Weather_numeric(1) => severity_level(High) | ---
+     2   834 0.024 -0.043 Weather_numeric(1) & Precipitation((-0.001, 1.0]) => severity_level(High) | ---
+     3   876 0.028 +0.097 Weather_numeric(2) => severity_level(High) | ---
+     4   876 0.028 +0.097 Weather_numeric(2) & Precipitation((-0.001, 1.0]) => severity_level(High) | ---
+     5   711 0.033 +0.306 Temperature((-20.001, 37.0]) => severity_level(High) | ---
+     6   711 0.033 +0.306 Temperature((-20.001, 37.0]) & Precipitation((-0.001, 1.0]) => severity_level(High) | ---
+     7   748 0.035 +0.387 Pressure((20.169, 28.95]) => severity_level(High) | ---
+     8   748 0.035 +0.387 Pressure((20.169, 28.95]) & Precipitation((-0.001, 1.0]) => severity_level(High) | ---
+     9  2139 0.025 +0.000 Precipitation((-0.001, 1.0]) => severity_level(High) | ---
+
+
+=== Jednotlivá pravidla ===
+
+=== Rule 1 ===
+
+
+
+Rule id : 1
+
+Base :   834  Relative base : 0.010  CONF : 0.024  AAD : -0.043  BAD : +0.043
+
+Cedents:
+  antecedent : Weather_numeric(1)
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  834|33446|
+----|-----|-----|
+¬A  | 1305|48525|
+----|-----|-----|
+
+
+=== Rule 2 ===
+
+
+
+Rule id : 2
+
+Base :   834  Relative base : 0.010  CONF : 0.024  AAD : -0.043  BAD : +0.043
+
+Cedents:
+  antecedent : Weather_numeric(1) & Precipitation((-0.001, 1.0])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  834|33446|
+----|-----|-----|
+¬A  | 1305|48525|
+----|-----|-----|
+
+
+=== Rule 3 ===
+
+
+
+Rule id : 3
+
+Base :   876  Relative base : 0.010  CONF : 0.028  AAD : +0.097  BAD : -0.097
+
+Cedents:
+  antecedent : Weather_numeric(2)
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  876|30522|
+----|-----|-----|
+¬A  | 1263|51449|
+----|-----|-----|
+
+
+=== Rule 4 ===
+
+
+
+Rule id : 4
+
+Base :   876  Relative base : 0.010  CONF : 0.028  AAD : +0.097  BAD : -0.097
+
+Cedents:
+  antecedent : Weather_numeric(2) & Precipitation((-0.001, 1.0])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  876|30522|
+----|-----|-----|
+¬A  | 1263|51449|
+----|-----|-----|
+
+
+=== Rule 5 ===
+
+
+
+Rule id : 5
+
+Base :   711  Relative base : 0.008  CONF : 0.033  AAD : +0.306  BAD : -0.306
+
+Cedents:
+  antecedent : Temperature((-20.001, 37.0])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  711|20703|
+----|-----|-----|
+¬A  | 1428|61268|
+----|-----|-----|
+
+
+=== Rule 6 ===
+
+
+
+Rule id : 6
+
+Base :   711  Relative base : 0.008  CONF : 0.033  AAD : +0.306  BAD : -0.306
+
+Cedents:
+  antecedent : Temperature((-20.001, 37.0]) & Precipitation((-0.001, 1.0])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  711|20703|
+----|-----|-----|
+¬A  | 1428|61268|
+----|-----|-----|
+
+
+=== Rule 7 ===
+
+
+
+Rule id : 7
+
+Base :   748  Relative base : 0.009  CONF : 0.035  AAD : +0.387  BAD : -0.387
+
+Cedents:
+  antecedent : Pressure((20.169, 28.95])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  748|20460|
+----|-----|-----|
+¬A  | 1391|61511|
+----|-----|-----|
+
+
+=== Rule 8 ===
+
+
+
+Rule id : 8
+
+Base :   748  Relative base : 0.009  CONF : 0.035  AAD : +0.387  BAD : -0.387
+
+Cedents:
+  antecedent : Pressure((20.169, 28.95]) & Precipitation((-0.001, 1.0])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |  748|20460|
+----|-----|-----|
+¬A  | 1391|61511|
+----|-----|-----|
+
+
+=== Rule 9 ===
+
+
+
+Rule id : 9
+
+Base :  2139  Relative base : 0.025  CONF : 0.025  AAD : +0.000  BAD : +0.000
+
+Cedents:
+  antecedent : Precipitation((-0.001, 1.0])
+  succcedent : severity_level(High)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  | 2139|81971|
+----|-----|-----|
+¬A  |    0|    0|
+----|-----|-----|
+

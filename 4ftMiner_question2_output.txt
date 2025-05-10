@@ -1,0 +1,316 @@
+=== Shrnutí ===
+
+CleverMiner task processing summary:
+
+Task type : 4ftMiner
+Number of verifications : 13
+Number of rules : 13
+Total time needed : 00h 00m 00s
+Time of data preparation : 00h 00m 00s
+Time of rule mining : 00h 00m 00s
+
+
+=== Seznam pravidel ===
+
+List of rules:
+RULEID BASE  CONF  AAD    Rule
+     1 20820 0.959 -0.015 Male (%)((47.609, 49.13]) => severity_level(Low) | ---
+     2 15263 0.951 -0.024 Male (%)((47.609, 49.13]) & Female (%)((50.87, 52.39]) => severity_level(Low) | ---
+     3 22819 0.963 -0.012 Male (%)((49.13, 49.9]) => severity_level(Low) | ---
+     4 17380 0.955 -0.021 Male (%)((49.13, 49.9]) & Female (%)((50.1, 50.87]) => severity_level(Low) | ---
+     5 28802 0.996 +0.022 Male (%)((49.9, 49.96]) => severity_level(Low) | ---
+     6 26487 0.997 +0.023 Male (%)((49.9, 49.96]) & Female (%)((48.789, 50.04]) => severity_level(Low) | ---
+     7 26487 0.997 +0.023 Male (%)((49.9, 49.96]) & Female (%)((48.789, 50.04]) & State(California) => severity_level(Low) | ---
+     8 26487 0.997 +0.023 Male (%)((49.9, 49.96]) & State(California) => severity_level(Low) | ---
+     9 36038 0.991 +0.017 Female (%)((48.789, 50.04]) => severity_level(Low) | ---
+    10 26487 0.997 +0.023 Female (%)((48.789, 50.04]) & State(California) => severity_level(Low) | ---
+    11 22937 0.962 -0.013 Female (%)((50.1, 50.87]) => severity_level(Low) | ---
+    12 15263 0.951 -0.024 Female (%)((50.87, 52.39]) => severity_level(Low) | ---
+    13 26487 0.997 +0.023 State(California) => severity_level(Low) | ---
+
+
+=== Rule 1 ===
+
+
+
+Rule id : 1
+
+Base : 20820  Relative base : 0.247  CONF : 0.959  AAD : -0.015  BAD : +0.015
+
+Cedents:
+  antecedent : Male (%)((47.609, 49.13])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |20820|  879|
+----|-----|-----|
+¬A  |61172| 1260|
+----|-----|-----|
+
+
+=== Rule 2 ===
+
+
+
+Rule id : 2
+
+Base : 15263  Relative base : 0.181  CONF : 0.951  AAD : -0.024  BAD : +0.024
+
+Cedents:
+  antecedent : Male (%)((47.609, 49.13]) & Female (%)((50.87, 52.39])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |15263|  790|
+----|-----|-----|
+¬A  |66729| 1349|
+----|-----|-----|
+
+
+=== Rule 3 ===
+
+
+
+Rule id : 3
+
+Base : 22819  Relative base : 0.271  CONF : 0.963  AAD : -0.012  BAD : +0.012
+
+Cedents:
+  antecedent : Male (%)((49.13, 49.9])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |22819|  886|
+----|-----|-----|
+¬A  |59173| 1253|
+----|-----|-----|
+
+
+=== Rule 4 ===
+
+
+
+Rule id : 4
+
+Base : 17380  Relative base : 0.207  CONF : 0.955  AAD : -0.021  BAD : +0.021
+
+Cedents:
+  antecedent : Male (%)((49.13, 49.9]) & Female (%)((50.1, 50.87])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |17380|  828|
+----|-----|-----|
+¬A  |64612| 1311|
+----|-----|-----|
+
+
+=== Rule 5 ===
+
+
+
+Rule id : 5
+
+Base : 28802  Relative base : 0.342  CONF : 0.996  AAD : +0.022  BAD : -0.022
+
+Cedents:
+  antecedent : Male (%)((49.9, 49.96])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |28802|  129|
+----|-----|-----|
+¬A  |53190| 2010|
+----|-----|-----|
+
+
+=== Rule 6 ===
+
+
+
+Rule id : 6
+
+Base : 26487  Relative base : 0.315  CONF : 0.997  AAD : +0.023  BAD : -0.023
+
+Cedents:
+  antecedent : Male (%)((49.9, 49.96]) & Female (%)((48.789, 50.04])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |26487|   86|
+----|-----|-----|
+¬A  |55505| 2053|
+----|-----|-----|
+
+
+=== Rule 7 ===
+
+
+
+Rule id : 7
+
+Base : 26487  Relative base : 0.315  CONF : 0.997  AAD : +0.023  BAD : -0.023
+
+Cedents:
+  antecedent : Male (%)((49.9, 49.96]) & Female (%)((48.789, 50.04]) & State(California)
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |26487|   86|
+----|-----|-----|
+¬A  |55505| 2053|
+----|-----|-----|
+
+
+=== Rule 8 ===
+
+
+
+Rule id : 8
+
+Base : 26487  Relative base : 0.315  CONF : 0.997  AAD : +0.023  BAD : -0.023
+
+Cedents:
+  antecedent : Male (%)((49.9, 49.96]) & State(California)
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |26487|   86|
+----|-----|-----|
+¬A  |55505| 2053|
+----|-----|-----|
+
+
+=== Rule 9 ===
+
+
+
+Rule id : 9
+
+Base : 36038  Relative base : 0.428  CONF : 0.991  AAD : +0.017  BAD : -0.017
+
+Cedents:
+  antecedent : Female (%)((48.789, 50.04])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |36038|  331|
+----|-----|-----|
+¬A  |45954| 1808|
+----|-----|-----|
+
+
+=== Rule 10 ===
+
+
+
+Rule id : 10
+
+Base : 26487  Relative base : 0.315  CONF : 0.997  AAD : +0.023  BAD : -0.023
+
+Cedents:
+  antecedent : Female (%)((48.789, 50.04]) & State(California)
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |26487|   86|
+----|-----|-----|
+¬A  |55505| 2053|
+----|-----|-----|
+
+
+=== Rule 11 ===
+
+
+
+Rule id : 11
+
+Base : 22937  Relative base : 0.273  CONF : 0.962  AAD : -0.013  BAD : +0.013
+
+Cedents:
+  antecedent : Female (%)((50.1, 50.87])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |22937|  917|
+----|-----|-----|
+¬A  |59055| 1222|
+----|-----|-----|
+
+
+=== Rule 12 ===
+
+
+
+Rule id : 12
+
+Base : 15263  Relative base : 0.181  CONF : 0.951  AAD : -0.024  BAD : +0.024
+
+Cedents:
+  antecedent : Female (%)((50.87, 52.39])
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |15263|  790|
+----|-----|-----|
+¬A  |66729| 1349|
+----|-----|-----|
+
+
+=== Rule 13 ===
+
+
+
+Rule id : 13
+
+Base : 26487  Relative base : 0.315  CONF : 0.997  AAD : +0.023  BAD : -0.023
+
+Cedents:
+  antecedent : State(California)
+  succcedent : severity_level(Low)
+  condition  : ---
+
+Fourfold table
+    |  S  |  ¬S |
+----|-----|-----|
+ A  |26487|   86|
+----|-----|-----|
+¬A  |55505| 2053|
+----|-----|-----|
+
